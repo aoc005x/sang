@@ -1,0 +1,60 @@
+.label {
+  width: 118px;
+  height: 52px;
+}
+
+.label .image {
+  position: fixed;
+  width: 113px;
+  height: 33px;
+  top: 0;
+  left: 0;
+}
+/* Original CSS code should be injected here */
+
+/* Enhanced styles for better semantics and accessibility */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  padding: 10px;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  padding: 10px;
+}
+
+/* Improved image positioning for better responsiveness */
+.label {
+  position: relative;
+  width: 118px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+}
+
+.label .image {
+  position: relative;
+  max-width: 113px;
+  width: 100%;
+  height: auto;
+  max-height: 33px;
+}
+
+@media (max-width: 768px) {
+  .label {
+    width: 100px;
+    height: 44px;
+  }
+
+  .label .image {
+    max-width: 95px;
+  }
+}
