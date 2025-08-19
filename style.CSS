@@ -1,20 +1,6 @@
+/* กล่องหลัก */
 .label {
-  width: 576px;
-  height: 77px;
-}
-
-.label .text-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 64px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-.label {
+  position: relative;
   width: 576px;
   height: 77px;
   display: block;
@@ -22,11 +8,12 @@
   padding: 0;
 }
 
+/* ข้อความภายใน */
 .label .text-wrapper {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
-  font-family: "Inter-Regular", Helvetica, Arial, sans-serif;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #000000;
   font-size: 64px;
@@ -36,7 +23,7 @@
   padding: 0;
 }
 
-/* Accessibility improvements */
+/* ปรับปรุงเพื่อการเข้าถึง (accessibility) */
 @media (prefers-reduced-motion: reduce) {
   * {
     transition: none !important;
@@ -44,7 +31,7 @@
   }
 }
 
-/* Basic responsive adjustments */
+/* Responsive บนหน้าจอเล็ก */
 @media screen and (max-width: 600px) {
   .label {
     width: 100%;
