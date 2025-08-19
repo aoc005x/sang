@@ -1,17 +1,51 @@
-<!DOCTYPE html>
-<html lang="th">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8" />
-    <title>นายเพชรรังสี เพชรโชติ</title>
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1 class="label">
-        <span class="text-wrapper">นายเพชรรังสี เพชรโชติ</span>
-      </h1>
-    </header>
-  </body>
-</html>
+import React from "react";
+import fullsizerender1 from "./fullsizerender-1.png";
+import image2 from "./image-2.png";
+
+export const Frame = () => {
+  return (
+    <main className="bg-white grid justify-items-center [align-items:start] w-screen">
+      <article className="bg-white w-[1077px] h-[803px] relative">
+        <header
+          className="top-0 absolute w-[1077px] h-[74px] left-0 bg-[#ea1f1f]"
+          role="banner"
+        />
+
+        <section className="relative">
+          <img
+            className="absolute w-[242px] h-[327px] top-[89px] left-[13px] aspect-[0.74] object-cover"
+            alt="Portrait of นายเพชรรังสี เพชรโชติ"
+            src={fullsizerender1}
+          />
+
+          <h1 className="top-[125px] left-[291px] [font-family:'Inter-Regular',Helvetica] text-[64px] absolute font-normal text-black tracking-[0] leading-[normal]">
+            นายเพชรรังสี เพชรโชติ
+          </h1>
+
+          <h2 className="top-[351px] left-[291px] [font-family:'Noto_Looped_Thai_UI-Regular',Helvetica] text-[40px] absolute font-normal text-black tracking-[0] leading-[normal]">
+            โรงเรยนสวนกุหลาบวิทยาลัย นนทบุรี
+          </h2>
+
+          <h3 className="top-[539px] left-[82px] [font-family:'Inter-Regular',Helvetica] text-[40px] whitespace-nowrap absolute font-normal text-black tracking-[0] leading-[normal]">
+            ดีค้าบอ้วน
+          </h3>
+
+          <p className="top-[632px] left-3 [-webkit-text-stroke:1px_#0b0a0a] [font-family:'Noto_Looped_Thai-Regular',Helvetica] text-4xl absolute font-normal text-black tracking-[0] leading-[normal]">
+            ผมชื่อแสงครับอยากเข้าคณะนิติศาสตร์เพื่อนำมาช่วยเหลือผู้อื่น
+          </p>
+
+          <img
+            className="absolute w-[188px] h-[188px] top-[431px] left-[867px] aspect-[1] object-cover"
+            alt="School or organization logo"
+            src={image2}
+          />
+        </section>
+
+        <footer
+          className="top-[729px] absolute w-[1077px] h-[74px] left-0 bg-[#ea1f1f]"
+          role="contentinfo"
+        />
+      </article>
+    </main>
+  );
+};
