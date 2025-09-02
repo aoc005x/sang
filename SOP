@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>คำแถลงแรงบันดาลใจ</title>
+  <style>
+    body {
+      font-family: "TH SarabunPSK", sans-serif;
+      background: linear-gradient(to bottom, #fdf6e3, #fefefe);
+      color: #2c2c2c;
+      margin: 0;
+      padding: 40px 20px;
+      line-height: 1.9;
+    }
+
+    .document {
+      max-width: 850px;
+      margin: auto;
+      background-color: #ffffff;
+      padding: 40px;
+      border: 1px solid #d4af37;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+      border-radius: 12px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+      background-color: #002147;
+      color: white;
+      padding: 20px;
+      border-radius: 8px 8px 0 0;
+    }
+
+    .header h1 {
+      font-size: 30px;
+      margin-bottom: 5px;
+    }
+
+    .header p {
+      font-size: 18px;
+      margin: 0;
+      opacity: 0.9;
+    }
+
+    .content {
+      font-size: 20px;
+      text-indent: 2em;
+      white-space: pre-line;
+      background-color: #fffdf5;
+      padding: 30px;
+      border-left: 6px solid #d4af37;
+      border-radius: 0 0 8px 8px;
+    }
+
+    .signature {
+      margin-top: 50px;
+      text-align: right;
+      font-size: 18px;
+      color: #444;
+    }
+
+    .signature p {
+      margin: 4px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="document">
+    <div class="header">
+      <h1>คำแถลงแรงบันดาลใจ</h1>
+      <p>ประกอบการสมัครเข้าศึกษาในคณะนิติศาสตร์</p>
+    </div>
+
+    <div class="content">
+      ผมชื่อแสง มีความตั้งใจแน่วแน่ที่จะเข้าศึกษาในคณะนิติศาสตร์ โดยได้รับแรงบันดาลใจมาจากบิดาที่รับราชการด้านกฎหมาย และใช้ความรู้ทางกฎหมายไปต่อยอดในทางที่ถูกต้อง เพื่อช่วยเหลือผู้ที่อ่อนแอในสังคม และเป็นอาวุธในการปกป้องสิทธิของตนเองและผู้อื่น
+
+      ความฝันของผมคือการเป็นอัยการ เพราะเป็นตำแหน่งที่สามารถรับใช้ประชาชนอย่างเป็นธรรม โดยเฉพาะคนธรรมดาที่ไม่มีอำนาจ เงิน หรือ ตำแหน่งในสังคม พวกเขาก็สมควรได้รับความยุติธรรมไม่ต่างจากใคร
+
+      ผมเชื่อว่ากฎหมายที่ถูกใช้ด้วยความซื่อสัตย์ และตั้งมั่นในความยุติธรรม จะสามารถเปลี่ยนแปลงสังคมให้ดีขึ้นได้ แม้ผมจะไม่ได้มีกิจกรรมหรือผลงานที่โดดเด่นเหมือนใครหลายคน แต่ผมใช้เวลาส่วนใหญ่ไปกับการเรียนรู้เรื่องกฎหมายด้วยตนเอง ไม่ว่าจะผ่านการอ่านหนังสือ ดูข่าว หรือวิเคราะห์ปัญหาสังคมรอบตัว
+
+      ผมเชื่อว่าความตั้งใจจริง และความพยายามสม่ำเสมอ คือรากฐานสำคัญในการเติบโตเป็นนักกฎหมายที่มีคุณภาพ ผมจึงหวังว่าการได้เข้าศึกษาในคณะนี้ จะเป็นก้าวแรกในการพัฒนาตนเอง เพื่อเดินไปสู่เป้าหมายในการสร้างความยุติธรรมให้กับสังคม
+    </div>
+
+    <div class="signature">
+      <p>ขอแสดงความนับถือ</p>
+      <p>แสง</p>
+    </div>
+  </div>
+</body>
+</html>
