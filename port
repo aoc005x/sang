@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <title>ผลงานเพิ่มเติม - นายเพชรรังสี</title>
+  <style>
+    body {
+      font-family: 'Sarabun', sans-serif;
+      padding: 40px;
+      background-color: #f0f8ff;
+      color: #333;
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>โครงงานกฎหมายเยาวชน</h1>
+    <img src="law-project.jpg" alt="ภาพโครงงาน" />
+    <p><strong>รายละเอียด:</strong> ส่งเสริมความรู้ด้านสิทธิและหน้าที่ของเยาวชนในโรงเรียน</p>
+    <p><strong>ปีที่จัดทำ:</strong> 2566</p>
+    <button onclick="history.back()">ย้อนกลับ</button>
+  </div>
+</body>
+</html>
