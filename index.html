@@ -163,7 +163,8 @@
     <p><strong>ชื่อสถาบันปัจจุบัน:</strong> โรงเรียนสวนกุหลาบวิทยาลัย นนทบุรี</p>
     <p><strong>แผนการเรียน:</strong> STEM</p>
   </div>
-  <button onclick="nextEducation()">เพิ่มเติม</button>
+  <!-- ปุ่มในหน้าแรก -->
+<button onclick="location.href='portfolio-detail.html'">รายละเอียด</button>
 </div>
 
   <!-- ทักษะ -->
@@ -185,24 +186,7 @@
     const eduContent = document.getElementById('edu-content');
     eduStep++;
 
-    if (eduStep === 1) {
-      eduContent.innerHTML = `
-        <p><strong>ชื่อโรงเรียนมัธยมต้น:</strong> โรงเรียนมัธยมสาธิตวัดพระศรีมหาธาตุ มหาวิทยาลัยราชภัฏพระนคร</p>
-        <p><strong>แผนการเรียน:</strong> สามัญ</p>
-      `;
-    } else if (eduStep === 2) {
-      eduContent.innerHTML = `
-        <p><strong>ชื่อโรงเรียนประถม:</strong> โรงเรียนประชานิเวศน์</p>
-        <p><strong>กิจกรรมเด่น:</strong> แลกเปลี่ยนวัฒนธรรม ณ ประเทศสิงคโปร์</p>
-      `;
-    } else {
-      eduContent.innerHTML = `
-        <p><strong>ชื่อสถาบันปัจจุบัน:</strong> โรงเรียนสวนกุหลาบวิทยาลัย นนทบุรี</p>
-        <p><strong>แผนการเรียน:</strong> STEM</p>
-      `;
-      eduStep = 0;
-    }
+    
   }
-
   </script>
 </html>
