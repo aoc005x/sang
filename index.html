@@ -135,11 +135,26 @@
     </p>
   </div>
 
-  <!-- ผลงาน -->
-  <div class="container">
-    <h2>🎖️ ผลงาน</h2>
-    <p><strong>หมวดหมู่ผลงาน:</strong> ไปค่ายลูกเสือสัมพันธ์ครั้งที่ 29</p>
+ <!-- ผลงาน -->
+<div class="container" id="portfolio">
+  <h2>🎖️ ผลงาน</h2>
+  <div id="portfolio-content">
+    <div class="work-item">
+      <img src="scout-camp.jpg" alt="ภาพกิจกรรมลูกเสือ" class="work-image" />
+      <p><strong>หมวดหมู่ผลงาน:</strong> ไปค่ายลูกเสือสัมพันธ์ครั้งที่ 29</p>
+    </div>
   </div>
+  <!-- ปุ่มในหน้าแรก -->
+<button onclick="location.href='portfolio-detail.html'">ดูผลงานเพิ่มเติม</button>
+
+
+<script>
+  function goToPortfolio() {
+    window.location.href = "portfolio.html";
+  }
+</script>
+
+</div>
 
   <!-- ประวัติการศึกษา -->
 <div class="container" id="education">
@@ -150,7 +165,6 @@
   </div>
   <button onclick="nextEducation()">เพิ่มเติม</button>
 </div>
-
 
   <!-- ทักษะ -->
   <div class="container">
@@ -189,5 +203,6 @@
       eduStep = 0;
     }
   }
-</script>
+
+  </script>
 </html>
